@@ -395,16 +395,14 @@
     <!--======================================FOOTER============================================-->
     <footer class="footer-page">
       <div class="container flex-page">
-        
         <div class="div-logo">
-
           <a class="footer-logo" href="./index.html"
-          >Web<span class="studio-footer">Studio</span></a
-        >
-        <p class="footer-p">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+            >Web<span class="studio-footer">Studio</span></a
+          >
+          <p class="footer-p">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
         </div>
 
         <div class="footer-socseti">
@@ -440,7 +438,111 @@
             </li>
           </ul>
         </div>
+        <div class="div-footer-form">
+          <p class="footer-form-p">Subscribe</p>
+          <div class="div-four-form-btn">
+            <form class="footer-form">
+              <input class="footer-form-input" type="email" name="email" id="name"placeholder="E-mail">
+            </form>
+            <button class="footer-form-btn" type="submit">Subscribe
+              <svg class="svg-btn-footer"width="24"height="24">
+                <use href="./images/icons.svg#icon-Frame-3"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
+<!--======================MODALKA======================-->
+    <div class="backdrop ">
+      <div class="modal">
+        <button class="close-btn" type="submit">
+          <svg class="icon-btb-close" width="12" height="12">
+            <use href="./images/icons.svg#icon-Vector-1"></use>
+          </svg>
+        </button>
+        <p class="modal-p">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="div-four-input">
+            <label class="label-four-input"for="input-text">Name</label>
+            <div class="div-four-icon-center">
+              <input 
+              class="modal-input" 
+              type="text" 
+              name="input-text" 
+              id="input-text"
+              required
+              title="Oleh"
+              pattern="[a-z]{4,8}"
+              />
+              <svg class="modal-icon"width="24" height="24">
+                <use href="./images/icons.svg#icon-person-black-18dp-1-1"></use>  
+              </svg>
+            </div>
+          </div>
+          
+          <div class="div-four-input">
+            <label class="label-four-input"for="input-number">Phone</label>
+            <div class="div-four-icon-center">
+              <input 
+              class="modal-input" 
+              type="number" 
+              name="input-number" 
+              id="input-number"
+              required
+              title="xxx-xxx-xx-xx"
+              pattern="{1,0}"
+              />
+              <svg class="modal-icon"width="24" height="24">
+                <use href="./images/icons.svg#icon-phone-black-18dp-1-1"></use>
+              </svg>
+            </div>
+
+          </div>
+          
+          <div class="div-four-input">
+            <label class="label-four-input"for="input-email">Email</label>
+            <div class="div-four-icon-center">
+              <input 
+              class="modal-input" 
+              type="email" 
+              name="input-email" 
+              id="input-email"
+              required
+              />
+              <svg class="modal-icon"width="24"height="24">
+                <use href="./images/icons.svg#icon-email-black-18dp-1-1"></use>
+              </svg>
+            </div>
+          </div>
+          
+          <div class="div-four-input">
+            <label class="label-four-input"for="input-textarea">Comment</label>
+            <textarea  
+            class="modal-textarea"   
+            name="input-textarea" 
+            id="input-textarea" 
+            placeholder="Text input"
+            required></textarea>
+
+          </div>
+          
+          <div class="div-four-input-chek">
+            <input 
+            class="modal-input-chek" 
+            type="checkbox" 
+            name="input-chek" 
+            id="input-chek"
+            value="true"
+            required
+            />
+            <label class="label-four-input-chek"for="input-chek">I accept the terms and conditions of the 
+              <a class="privacy-Policy-link" href=""> Privacy Policy</a>
+            </label>
+          </div>
+          <button class="send-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
