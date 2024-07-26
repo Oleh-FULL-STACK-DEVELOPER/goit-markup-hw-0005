@@ -532,6 +532,7 @@ align-items: baseline
 
 .div-footer-form{
   margin-left: 80px;
+
 }
 
 .footer-form-p{
@@ -541,52 +542,59 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
-padding-bottom: 16px;
+margin-bottom: 16px;
 }
 
-.div-four-form-btn{
+.footer-form{
   display: flex;
   gap: 24px;
 }
 
 .footer-form-input{
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  background-color:#2e2f42;
+  background-color:transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
  
 }
 
 .footer-form-input::placeholder{
-  font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 12px;
-line-height: 2;
-letter-spacing: 0.04em;
-color: #fff;
+
+color: #ffffff;
 }
 
 .footer-form-btn{
   border-radius: 4px;
+  border: none;
 padding: 8px 24px;
 width: 165px;
 height: 40px;
-background: #4d5ae5;
+background-color: #4d5ae5;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 text-align: center;
-color: #fff;
+color: #ffffff;
 fill: #fff;
-display: inline-flex;
+cursor: pointer;
+display:flex;
 align-items: center;
 justify-content: center;
-gap: 16px;
 
 }
+
+.svg-btn-footer{
+  margin-left: 16px;
+}
+
 /*====================FOOTER-INPUT==================*/
 
 /*======================MODALKA==================*/
