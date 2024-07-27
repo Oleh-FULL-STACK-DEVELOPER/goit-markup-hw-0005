@@ -681,7 +681,7 @@ margin-bottom:16px;
  
 .div-four-input{
   
-  margin-bottom: 8px
+  margin-bottom: 16px
 }
 
 .label-four-input{
@@ -786,14 +786,11 @@ margin-top: 24px;
     fill: transparent;
   }
 
-.svg-privat{
-  fill: red;
-}
 
-.modal-input-chek:checked.span-chek{
-background-color: #404bbf;
-border: none;
-fill: #F4F4FD;;
+.modal-input-chek:checked + .label-four-input-chek .span-chek{
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
 }
 
 .send-btn{
