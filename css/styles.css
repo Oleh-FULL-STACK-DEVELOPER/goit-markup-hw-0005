@@ -681,7 +681,7 @@ margin-bottom:16px;
  
 .div-four-input{
   
-  margin-bottom: 16px
+  margin-bottom: 8px;
 }
 
 .label-four-input{
@@ -765,7 +765,7 @@ line-height: 1.17;
 
 }
 
-.privacy-Policy-link{
+.privacy-policy-link{
 line-height: 1.33333;
 text-decoration: underline;
 text-decoration-skip-ink: none;
